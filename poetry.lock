@@ -101,7 +101,7 @@ description = "OpenID Connect extension for Flask - Extended"
 name = "flask-oidc-ex"
 optional = false
 python-versions = "*"
-version = "0.5.6"
+version = "0.6.2"
 
 [package.dependencies]
 Flask = "*"
@@ -367,7 +367,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "fc56c7369ea3c90744dc676e8c16d2b84f2dde4b845655fbcaaf01cb915fe9fd"
+content-hash = "1cfd233d7fb90a67bfef056c6fb8ab98555384f19bd6f9817172fd51bae6d9d0"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -454,8 +454,8 @@ flask = [
     {file = "Flask-1.1.1.tar.gz", hash = "sha256:13f9f196f330c7c2c5d7a5cf91af894110ca0215ac051b5844701f2bfd934d52"},
 ]
 flask-oidc-ex = [
-    {file = "flask-oidc-ex-0.5.6.tar.gz", hash = "sha256:61864a4a5afc7c38b09e104bc7f947ed4c521df9df504a223628375c2ed85f50"},
-    {file = "flask_oidc_ex-0.5.6-py2.py3-none-any.whl", hash = "sha256:0835eb92b95cdc8b072662aa5b2a1126619b29e4cc5549ba12e8761a13f0b525"},
+    {file = "flask-oidc-ex-0.6.2.tar.gz", hash = "sha256:9d0315f1a3d632d2908089db191077b1fdef2cca3776a730832b8b8dbfaf5ed6"},
+    {file = "flask_oidc_ex-0.6.2-py2.py3-none-any.whl", hash = "sha256:099a10221154bf4f1a50b9e112e81fba914e8f215ec15fa463a82dd568efa9a3"},
 ]
 httplib2 = [
     {file = "httplib2-0.15.0-py3-none-any.whl", hash = "sha256:1d1f4ad7a6e55d325830ab274190f98894e069850a871fac19921caf4363259d"},
@@ -505,6 +505,11 @@ markupsafe = [
     {file = "MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:ba59edeaa2fc6114428f1637ffff42da1e311e29382d81b339c1817d37ec93c6"},
     {file = "MarkupSafe-1.1.1-cp37-cp37m-win32.whl", hash = "sha256:b00c1de48212e4cc9603895652c5c410df699856a2853135b3967591e4beebc2"},
     {file = "MarkupSafe-1.1.1-cp37-cp37m-win_amd64.whl", hash = "sha256:9bf40443012702a1d2070043cb6291650a0841ece432556f784f004937f0f32c"},
+    {file = "MarkupSafe-1.1.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:6788b695d50a51edb699cb55e35487e430fa21f1ed838122d722e0ff0ac5ba15"},
+    {file = "MarkupSafe-1.1.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:cdb132fc825c38e1aeec2c8aa9338310d29d337bebbd7baa06889d09a60a1fa2"},
+    {file = "MarkupSafe-1.1.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:13d3144e1e340870b25e7b10b98d779608c02016d5184cfb9927a9f10c689f42"},
+    {file = "MarkupSafe-1.1.1-cp38-cp38-win32.whl", hash = "sha256:596510de112c685489095da617b5bcbbac7dd6384aeebeda4df6025d0256a81b"},
+    {file = "MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be"},
     {file = "MarkupSafe-1.1.1.tar.gz", hash = "sha256:29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"},
 ]
 more-itertools = [
