@@ -115,7 +115,7 @@ dev = ["twine", "tox", "bumpversion", "nose", "nosy"]
 
 [[package]]
 name = "httplib2"
-version = "0.15.0"
+version = "0.18.0"
 description = "A comprehensive HTTP client library."
 category = "main"
 optional = false
@@ -459,8 +459,8 @@ flask-oidc-ex = [
     {file = "flask_oidc_ex-0.6.2-py2.py3-none-any.whl", hash = "sha256:099a10221154bf4f1a50b9e112e81fba914e8f215ec15fa463a82dd568efa9a3"},
 ]
 httplib2 = [
-    {file = "httplib2-0.15.0-py3-none-any.whl", hash = "sha256:1d1f4ad7a6e55d325830ab274190f98894e069850a871fac19921caf4363259d"},
-    {file = "httplib2-0.15.0.tar.gz", hash = "sha256:a5f914f18f99cb9541660454a159e3b3c63241fc3ab60005bb88d97cc7a4fb58"},
+    {file = "httplib2-0.18.0-py3-none-any.whl", hash = "sha256:4f6988e6399a2546b525a037d56da34aed4d149bbdc0e78523018d5606c26e74"},
+    {file = "httplib2-0.18.0.tar.gz", hash = "sha256:b0e1f3ed76c97380fe2485bc47f25235453b40ef33ca5921bb2897e257a49c4c"},
 ]
 importlib-metadata = [
     {file = "importlib_metadata-1.4.0-py2.py3-none-any.whl", hash = "sha256:bdd9b7c397c273bcc9a11d6629a38487cd07154fa255a467bf704cd2c258e359"},
